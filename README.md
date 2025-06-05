@@ -2,13 +2,12 @@
 
 hands-on projects exploring different machine learning concepts. 
 
-### data cleaning
+### projects
 
-* inconsistent airplane passenger records
-* movie review text for sentiment analysis
-
-### machine learning projects
-
+* data cleaning of inconsistent airplane passenger records
+* data cleaning of movie review text for sentiment analysis
+* pca on the iris dataset
+* pca to newsgroups text data
 * fraud detection model for financial transactions
 * worker productivity scores
 * forecast rainfall patterns
@@ -16,7 +15,3 @@ hands-on projects exploring different machine learning concepts.
 * trends in ev battery health
 * sentiment analysis on linkedin posts
 
-### dimensionality reduction
-
-* pca on the iris dataset
-* pca to newsgroups text data
