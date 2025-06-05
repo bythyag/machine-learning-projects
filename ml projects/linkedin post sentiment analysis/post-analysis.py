@@ -27,8 +27,8 @@ nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 # Path to LinkedIn post JSON files
-data_dir = "Post-Sentiment-Analysis/linkedin-post"
-output_path = "Post-Sentiment-Analysis/final-dataset.csv"
+data_dir = "machine-learning-projects/ml-projects/linkedin-post-sentiment-analysis/linkedin-post"
+output_path = "machine-learning-projects/ml-projects/linkedin-post-sentiment-analysis/final-dataset.csv"
 
 # 1. Load and consolidate JSON files
 def load_json_data(directory):
@@ -182,7 +182,7 @@ def analyze_linkedin_posts():
     return df, topics
 
 # 6. Visualize results
-def visualize_results(df, topics, output_dir='Post-Sentiment-Analysis/plots'):
+def visualize_results(df, topics, output_dir='machine-learning-projects/ml-projects/linkedin-post-sentiment-analysis/plots'):
     """Generate visualizations and save them to a specified directory"""
     os.makedirs(output_dir, exist_ok=True)
 
