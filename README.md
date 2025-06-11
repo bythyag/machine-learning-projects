@@ -11,7 +11,3 @@ hands-on projects exploring different machine learning concepts.
 * fraud detection model for financial transactions
 * worker productivity scores
 * forecast rainfall patterns
-* analyze wind power generation data
-* trends in ev battery health
-* sentiment analysis on linkedin posts
-
